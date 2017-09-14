@@ -7,7 +7,7 @@ Current Version: 1.0
 ## Demo and Examples
 
 Demo:
-https://e-filter.thedemos.tk/
+http://e-filter.thedemos.tk/
 
 Example:
 ```js
