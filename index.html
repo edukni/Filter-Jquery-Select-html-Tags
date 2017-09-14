@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>E-Filter Plugin</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<script src="js/jquery-3.1.0.min.js"></script>
+<style type="text/css"> 
+.dropdown.float-left {
+    display: inline-block;
+}
+</style>
+</head>
+<body>
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<h1>E-filter plugin (with multiple select html TAGS)</h1>
+			<p>By <a target="_blank" href="https://github.com/edukni">Eduardo Torres</a></p><br>
+		</div>
+	</div>
+<div class="container">
+	<div class="row">
+		<div class="col-lg-12">
+		<div class="dropdown float-left">
+            <button class="btn btn-default" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Company
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <ul class="dropdown-menu" id="eFilter">
+              <li class="active" data-catego="">
+                <a>ALL</a>
+              </li>
+              <li data-catego="company1">
+                <a>Company1</a>
+              </li>
+              <li data-catego="company2">
+                <a>Company2</a>
+              </li>
+              <li data-catego="company3">
+                <a>Company3</a>
+              </li>
+            </ul>
+          </div>
+                   <div class="dropdown float-left">
+            <button class="btn btn-default" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Provider
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <ul class="dropdown-menu" id="eFilter">
+              <li class="active" data-catego="">
+                <a >ALL</a>
+              </li>
+              <li data-catego="provider1">
+                <a>Provider 1</a>
+              </li>
+              <li data-catego="provider2">
+                <a>Provider 2</a>
+              </li>
+              <li data-catego="provider3">
+                <a>Provider 3</a>
+              </li>
+            </ul>
+          </div> 
+		</div>
+
+		<div class="col-lg-12">
+			  <div class="row containerItems">
+         
+
+         <div data-filter="company1 provider1" class="col-12 col-sm-6 col-md-4">
+         
+            <div class="card card-lg">
+
+              <div class="card-img">
+                <a>
+                  <img src="img/example.jpg" class="card-img-top" alt="Company 1"> </a>
+                <div class="badge badge-pc">Company 1</div>
+              </div>
+              
+              <div class="card-block">
+                <h4 class="card-title">
+                  Silly Bombs
+                </h4>
+              </div>
+
+            </div>
+          </div>
+          
+          <div data-filter="company2 provider2" class="col-12 col-sm-6 col-md-4">
+            <div class="card card-lg">
+
+              <div class="card-img">
+                <a>
+                  <img src="img/example.jpg" class="card-img-top" alt="Company 2"> </a>
+                <div class="badge badge-pc">Company 2</div>
+              </div>
+              
+              <div class="card-block">
+                <h4 class="card-title">
+                  Skeleton 2
+                </h4>
+              </div>
+
+            </div>
+          </div>
+
+                    <div data-filter="company3 provider3" class="col-12 col-sm-6 col-md-4">
+            <div class="card card-lg">
+
+              <div class="card-img">
+                <a>
+                  <img src="img/example.jpg" class="card-img-top" alt="Company 3"> </a>
+                <div class="badge badge-pc">Company 3</div>
+              </div>
+              
+              <div class="card-block">
+                <h4 class="card-title">
+                  Angry Birds
+                </h4>
+              </div>
+
+            </div>
+          </div>
+		</div>
+	</div>
+
+
+
+</div></div>
+	<div class="row">
+		<div class="col-md-12">
+			<h3>Github: <a target="_blank" href="https://github.com/edukni">Edukni</a></h3>
+		</div>
+	</div>
+<script src="e-filter.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
