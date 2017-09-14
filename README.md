@@ -11,6 +11,7 @@ https://e-filter.thedemos.tk/
 
 Example:
 ```js
+//Dropdown
 <div class="dropdown float-left">
             <button class="btn btn-default" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Company
               <i class="fa fa-caret-down"></i>
@@ -30,6 +31,30 @@ Example:
               </li>
             </ul>
  </div>
+ 
+ //Items to filter, fade in/out.
+ <div class="row containerItems">
+         
+
+         <div data-filter="company1 provider1" class="col-12 col-sm-6 col-md-4">
+         
+            <div class="card card-lg">
+
+              <div class="card-img">
+                <a>
+                  <img src="img/example.jpg" class="card-img-top" alt="Company 1"> </a>
+                <div class="badge badge-pc">Company 1</div>
+              </div>
+              
+              <div class="card-block">
+                <h4 class="card-title">
+                  Silly Bombs
+                </h4>
+              </div>
+
+            </div>
+          </div>
+   </div>
 ```
 
 ## How it Works?
